@@ -48,7 +48,7 @@ header nav ul li {
 /* font */
 
 a {
-    color: #ffffff;
+    color: #37f217;
     text-decoration: none;
 }
 
@@ -58,8 +58,8 @@ p {
 
 /* main backdrop "hero" div */
 
-.hero {
-    height: 800px;
+.back {
+    height: 20px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -89,7 +89,7 @@ main {
 
 /* aside */
 
-.benefits {
+.AboutMe {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -97,20 +97,20 @@ main {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #5e5f60;
 }
 
-.benefit {
+.AboutMe {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+.AboutMe h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.AboutMe {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -118,20 +118,20 @@ main {
 
 /* services */
 
-.service {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+.workcontent {
+    margin-bottom: 10px;
+    padding: 20px;
+    height: 200px;
+    font-family: sans-serif;
+    background-color: #2d2d2e;
     color: #ffffff;
 }
 
-.service img {
-    max-height: 200px;
+.workcontent  {
+    max-height: 333px;
 }
 
-.service h2 {
+.workcontent h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -149,3 +149,6 @@ footer h2 {
     font-size: 20px;
 }
 
+@media (min-width: 600px){
+    
+}
