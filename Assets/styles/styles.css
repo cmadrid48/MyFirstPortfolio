@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #91a6db;
+    background-color: #000000;
 }
 
 /* all heading styles */
@@ -15,7 +15,7 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2d285e;
+    background-color: #c2c2c2;
     color: #ffffff;
 }
 
@@ -29,7 +29,7 @@ header h1 {
 }
 
 header h1 .mad {
-    color: #383f30;
+    color: #c98a04;
 }
 
 header nav {
@@ -52,7 +52,7 @@ header nav ul li {
 /* font */
 
 a {
-    color: #37f217;
+    color: #414141;
     text-decoration: none;
 }
 
@@ -63,10 +63,13 @@ p {
 /* main backdrop "hero" div */
 
 .Carlos {
-    height: 400px;
+    height: 750px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("800x200.jpg");
+    background-image: url("Screenshot\ 2022-12-21\ at\ 5.47.02\ PM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 /* floating elements */
@@ -93,7 +96,7 @@ main {
 
 .AboutMe {
     margin-left: 20px;
-    border-right: 5px solid black;
+    border-right: 5px solid rgb(189, 189, 189);
     padding: 20px;
     clear: both;
     float: left;
@@ -125,7 +128,7 @@ main {
     align-items: center;
 }
 
-/* services */
+/* s */
 
 .workcontent {
     margin-bottom: 10px;
@@ -152,10 +155,17 @@ main {
     align-content: center;
     justify-content: center;
     align-items: center;
-    
+}
+
+.img {
+    max-width: 700px;
     
 }
 
+.imgs {
+    max-width: 200px;
+    padding: 5px;
+}
 /* footers */
 
 footer {
@@ -163,10 +173,12 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: #c98a04;
 }
 
 footer h2 {
     font-size: 20px;
+    
 }
 
 @media (min-width: 600px){
