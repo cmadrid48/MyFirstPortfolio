@@ -151,21 +151,32 @@ main {
 .Container ul {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
+    border: #c98a04 5px;
 }
 
 .img {
-    max-width: 700px;
+    max-width: 600px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    
     
 }
 
+
 .imgs {
-    max-width: 200px;
+    max-width: 350px;
     padding: 5px;
+    border: 1px solid transparent;
 }
+
+img:hover {
+    border: #c98a04;
+}
+
 /* footers */
 
 footer {
