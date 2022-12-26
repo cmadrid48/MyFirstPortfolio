@@ -60,7 +60,7 @@ p {
     font-size: 16px;
 }
 
-/* main backdrop "hero" div */
+/* Main Body styling */
 
 .Carlos {
     height: 750px;
@@ -72,19 +72,6 @@ p {
 
 }
 
-/* floating elements */
-/*
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-} */
-
-/* main content */
 
 main {
     width: 75%;
@@ -128,7 +115,7 @@ main {
     align-items: center;
 }
 
-/* s */
+/* content styling */
 
 .workcontent {
     margin-bottom: 10px;
